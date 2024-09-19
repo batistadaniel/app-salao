@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#de4ea9"/>
+    <link rel="stylesheet" href="css/cadastro.css">
+    <title>Salao Beleza Rapida</title>
+</head>
+<body>
+    <section id="telaLogin">
+        <form action="login.php" method="post">
+            <h1>BELEZA RAPIDA</h1>
+            <div class="inputs">
+                <select name="opcoesUsuarios" id="opcoesUsuarios">
+                    <option value="selecione">-- Selecione</option>
+                    <option value="administrador">Administrador</option>
+                    <option value="funcionario">Funcionario</option>
+                    <option value="cliente">Cliente</option>
+                </select>
+                <input type="text" name="nome" placeholder="Nome completo">
+                <input type="text" name="telefone" placeholder="Telefone">
+                <input type="text" name="cpf" placeholder="CPF">
+                <input type="text" name="email" placeholder="E-mail ou CPF">
+                <input type="password" name="senha" placeholder="Senha">
+
+                <!-- <div class="termosEPrivacidade">
+                    <input type="checkbox" id="termos" name="termos" required>
+                    <label for="termos">Li e concordo com os <a href="termos-de-uso.html" target="_blank">Termos de Uso</a> e <a href="politica-de-privacidade.html" target="_blank">Política de Privacidade</a></label>
+                    <div class="alertaTermos"></div>
+                </div> -->
+                <a href="home.html">Cadastrar</a>
+            </div>
+        </form>
+    </section>
+</body>
+</html>
