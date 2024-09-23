@@ -13,10 +13,6 @@
     font-family: "Roboto", sans-serif;
 }
 
-body {
-    background-color: var(--color-main);
-}
-
 #telaLogin {
     background-color: #ffffff;
     display: flex;
@@ -75,7 +71,7 @@ select, input[type=text],[type=password] {
 
 .inputs a {
     margin-top: 10px;
-    padding: 10px 20px;
+    padding: 18px 15px;
     width: 100%;
     background-color: var(--color-btn-1);
     color: #ffffff;

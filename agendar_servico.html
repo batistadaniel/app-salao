@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#de4ea9"/>
+    <link rel="stylesheet" href="css/agendar_servico.css">
+    <title>Salao Beleza Rapida</title>
+</head>
+<body>
+    <header>
+        <h1>BELEZA RAPIDA</h1>
+    </header>
+
+    <main>
+        <section id="menuGeral">
+            <form>
+                <h3>Agendamento de Servico</h3>
+                <div class="inputs">
+                    <input type="text" name="nome" placeholder="Nome do profissional Ex.: Ana Souza">
+                    <input type="date" name="data" placeholder="Data do serviço Ex.: 25/10/2024">
+                    <input type="time" name="hora" placeholder="Horario do serviço Ex.: 14:30">
+                    <select name="servico" id="servico" placeholder="Serviço a ser realizado:"> 
+                        <option value="" disabled selected hidden>Serviço a ser realizado:</option>
+                        <option value="selecione">-- Selecione</option>
+                        <option value="servico1">Servico 1</option>
+                        <option value="servico2">Servico 2</option>
+                        <option value="servico3">Servico 3</option>
+                        <option value="servico4">Servico 4</option>
+                        <option value="servico5">Servico 5</option>
+                    </select>
+                    
+                    <select name="pagamento" id="pagamento" placeholder="Forma de pagamento:"> 
+                        <option value="" disabled selected hidden>Forma de pagamento:</option>
+                        <option value="selecione">-- Selecione</option>
+                        <option value="dinheiro">Dinheiro</option>
+                        <option value="pix">PIX</option>
+                        <option value="cartao">Cartao</option>
+                    </select>
+
+                    <a href="home_fun.html">Agendar servico</a>
+                </div>
+            </form>            
+        </section>
+    </main>
+</body>
+</html>
